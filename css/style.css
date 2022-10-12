@@ -1,0 +1,45 @@
+ body{
+    background: linear-gradient(aquamarine, blueviolet);background: linear-gradient(112.1deg, rgb(32, 38, 57) 11.4%, rgb(63, 76, 119) 70.2%);
+    
+ }
+
+ h1{
+   font-family: 'Ubuntu', sans-serif;
+   text-align: center;
+   padding-top: 10px;
+
+ }
+ div.gallery{
+    margin: 25px;
+    border:3px solid #fff;
+    float: left;
+    width: 180;
+    background-color: #1b191f;
+ }
+
+
+ div.gallery img{
+    width: 180px;
+    height: 25%;
+    transition: transform .5s ease
+    
+
+ }
+ div.description{
+    padding: 10px;
+    text-align: center;
+    color: white;
+ }
+
+ .animal-names{
+   color: red;
+ }
+
+
+ div.gallery img:hover{
+    transform: scale(1.5);
+    
+
+ }
+
+ 
